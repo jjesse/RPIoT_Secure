@@ -26,8 +26,15 @@ This guide assumes one knows how to install an Operating System (OS) on a Raspbe
 
 - Connect the Raspbery PI wired connection to the Internet Modem (Cable Modem, Router, etc.)
 
+- Configure the iotdevices.csv file to include the devices and exceptions for the firewall
+
+  - The csv follows the format (protocol, port, name, allow/deny, description)
+
+  - The items included are samples to understand how the file works.
+
 - Copy the script RPIoT_Secure.sh to the Raspberry PI
 
 - Exeucte the script (sudo RPIoT_Secure.sh)
 
 - Restart the Raspberry PI
+
